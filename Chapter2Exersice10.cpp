@@ -12,11 +12,16 @@ using namespace std;
 
 int main()
 {
-	const double miles = 375;
-	const double gallons = 15;
+	double miles, gallons;
 
-		cout << "The amount of miles driven were " << miles << endl;
-		cout << "And the amount of gallons used was " << gallons << endl;
+		cout << "Please enter the amount of miles that were driven:";
+		cin >> miles;
+		cout << "The amount of miles driven was " << miles << endl;
+
+
+		cout << "Please enter the amount of gas that was used:";
+		cin >> gallons;
+		cout << "The amount of gallons used was "<< gallons << endl;
 
 		//And then you would get the mpg by dividing the miles by the gallons used
 
