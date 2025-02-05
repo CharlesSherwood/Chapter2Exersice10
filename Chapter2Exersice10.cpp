@@ -1,5 +1,9 @@
-// Chapter2Exersice10.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/*FileName:Chapter2Exersice10.cpp
+Progrgammer:Charles Sherwood
+Date:2/2025
+Requirments:Calculate the miels per gallon on a vehivle using 
+375 for the miles and 15 for the gallons 
+*/
 #include <iomanip>
 #include <iostream>
 using namespace std;
